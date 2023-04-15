@@ -6,14 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@hpcc-js/wasm": "^2.10.0",
     "base32": "^0.0.7",
+    "base91-js": "^1.0.8",
     "bootstrap": "^5.2.3",
     "bs58": "^5.0.0",
     "buffer": "^6.0.3",
+    "node-base91": "^0.3.4",
     "popper.js": "^1.16.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

@@ -1,9 +1,7 @@
 import { Buffer } from 'buffer';
 import base32 from 'base32';
 import base58 from 'bs58';
-import { Base91 } from "@hpcc-js/wasm";
-
-const base91 = await Base91.load();
+import * as base91 from 'base91-js';
 
 const error_encode = "Error: Could not encode text";
 const error_decode = "Error: Could not decode text";

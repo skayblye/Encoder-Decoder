@@ -1,0 +1,25 @@
+body{
+    background-color:#0f0f0f! important;
+}
+.bg-color1{
+    background-color: #202020;
+}
+.btn-purple {
+    background-color: #800080;
+    border-color: #800080;
+    color: #fff;
+  }
+  .btn-purple:hover {
+    background-color: #993399;
+    border-color: #993399;
+    color: #fff;
+  }
+  .color1{
+    background-color: #202020;
+    border-color: #800080;
+  }  
+  .color1:focus{
+    background-color: #202020;
+    border-color: #800080;
+    box-shadow: 0 0 0 2px #993399;
+  }
